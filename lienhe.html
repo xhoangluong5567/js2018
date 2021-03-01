@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>LIÊN HỆ</title>
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- icon -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- style -->
+  <link rel="stylesheet" href="lienhe.css">
+  <!-- các file JS -->
+  <script src="dattuor.js"></script>
+  <script src="button.js"></script>
+  <script src="slide.js"></script>
+</head>
+<body>
+  <div id="ngaygio" style="background: skyblue; text-align: center;color: red; font: bold; font-size: 18px;"></div>
+  <script type="text/javascript" src="ngaygio.js"></script>
+  <nav class="navbar navbar-inverse" id="fixNav">
+    <div class="container padding-container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span> 
+        </button>
+        <a href="trangchu.html"><img src="img/logo.png" width="100%" alt=""></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="trangchu.html">TRANG CHỦ</a></li>
+          <li><a href="gioithieu.html">GIỚI THIỆU</a></li>
+          <li><a href="tour.html">TOUR</a></li>
+          <li><a href="tintuc.html">TIN TỨC</a></li>
+          <li class="active"><a href="#">LIÊN HỆ</a></li>      
+        </ul>
+      </div>
+    </nav>
+
+    <!-- ---------------------------Menu----------------------------- -->
+    <img name="slide" id="style-slide-img">
+    <div class="container">
+      <div class="row">
+        <h3>ĐẶT TOUR</h3>     
+        <div class="col-md-5">
+          <form action="#">
+            <div class="form-group">
+             <label>Họ và tên</label>
+             <input type="text" name="user" class="form-control" id="user" autocomplete="off">
+             <span id="username" class="text-danger"></span>
+           </div>
+           <div class="form-group">
+             <label>Email</label>
+             <input type="text" name="email" class="form-control" id="email" autocomplete="off">
+             <span id="emails" class="text-danger"></span>
+           </div>
+           <div class="form-group">
+            <label>Tour muốn đặt:</label>
+            <input type="text" name="tour" class="form-control" id="tour" autocomplete="off">
+            <span id="tours" class="text-danger"></span>
+          </div>
+          <div class="form-group">
+            <label>Nội Dung:</label>
+            <input type="text" name="noidung" class="form-control" id="noidung" autocomplete="off">
+            <span id="noidungs" class="text-danger"></span>
+          </div>
+          <button class="btn btn-success" type="button" onclick="checkInfo();">GỬI</button>
+        </form>
+      </div>
+      <div class="col-md-7">
+        <h3>THÔNG TIN CHÚNG TÔI</h3>
+        <p>Công ty TNHH Du lịch Viet Nam Tour</p>
+        <p>– Mã số thuế: 0105225586 – Sở kế hoạch và đầu tư Thành phố Hà Nội cấp ngày 29/03/2011</p>
+        <p>– Địa chỉ ĐKKD: Tầng 7, tòa nhà TOYOTA 315 Trường Chinh, Huế</p>
+        <p>– Giấy phép Kinh doanh Lữ hành Quốc tế số 01771/2015/TCDL-GPLHQT</p>
+        <p>– Số tài khoản: 0111.0311.89008</p>
+        <p>– Ngân hàng Thương mại Cổ Phần An Bình – Chi nhánh Huế</p>
+        <p><i class="fas fa-phone"></i> + 0886.055.166</p>
+        <p><i class="fas fa-phone"></i> + 0886.055.200</p>
+        <p>MST: 0314838498</p>
+        <p><i class="far fa-envelope"></i> Email: hoangluong@gmail.com</p>
+      </div>
+
+    </div>
+
+  </div>
+  <div class="container-fluid">
+    <button id="topBtn"><i class="fas fa-arrow-up"></i></button>
+    <div class="row footer">
+      <div class="logo-end"><img src="img/logo.png" alt=""></div>
+      <p class="p-ft">Bản quyền 2006 – 2018 © Công ty TNHH Một Thành Viên Dịch vụ Lữ hành VietNamTour</p>
+      <p class="p-ft">367 Nguyễn Huệ, Phường Phú Nhuận, TP Huế</p>
+      <p class="p-ft">ĐT:  19002011 – 0963600036. </p>
+      <p class="p-ft">Người đại diện: Ông Nguyễn Hoàng Lương. </p>
+      <p class="p-ft">® Ghi rõ nguồn “VIETNAMTOUR” khi sử dụng lại thông tin từ website này.  </p>
+    </div> 
+    <div class="row rr-fft">
+     <p>© 2019 .Thiết kế bởi Hoàng Lương 18CDTH11</p>
+   </div>  
+ </div>
+</body>
+</html>
